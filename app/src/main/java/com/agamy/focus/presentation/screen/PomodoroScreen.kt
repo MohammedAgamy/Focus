@@ -1,5 +1,7 @@
 package com.agamy.focus.presentation.screen
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -23,7 +25,9 @@ import com.agamy.focus.presentation.components.PresetSelector
 import com.agamy.focus.presentation.components.SessionDots
 import com.agamy.focus.presentation.components.TimerControls
 import com.agamy.focus.presentation.components.TimerRing
+import com.agamy.focus.presentation.components.startTimerService
 
+@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun PomodoroScreen(viewModel: PomodoroViewModel = viewModel()) {
 

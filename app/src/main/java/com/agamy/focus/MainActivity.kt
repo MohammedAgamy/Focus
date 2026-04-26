@@ -15,6 +15,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.agamy.focus.navigation.NavGraph
 import com.agamy.focus.presentation.screen.PomodoroScreen
 import com.agamy.focus.ui.theme.FocusTheme
 
@@ -31,7 +32,7 @@ class MainActivity : ComponentActivity() {
                 modifier = Modifier.fillMaxSize(),
                 color = MaterialTheme.colorScheme.background
             ) {
-                PomodoroScreen()
+                NavGraph()
             }
 
         }
