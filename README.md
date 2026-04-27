@@ -132,7 +132,7 @@ Phase Complete
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/focus-pomodoro.git
+git clone https://github.com/MohammedAgamy/focus-pomodoro.git
 cd focus-pomodoro
 ```
 
@@ -242,7 +242,7 @@ copies or substantial portions of the Software.
 
 <p>
   <a href="https://github.com/MohammedAgamy">
-    <img src="https://img.shields.io/badge/GitHub-YOUR_USERNAME-black?style=flat-square&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-MohammedAgamy-black?style=flat-square&logo=github" />
   </a>
   <a href="https://linkedin.com/in/mohamed-agamy-742b36389/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" />
